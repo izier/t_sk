@@ -1,6 +1,10 @@
 # t_sk - Task Manager App
 
-![demo](t_sk_demo.mp4)
+![t_sk demo](demo1.jpg)
+![t_sk demo](demo2.jpg)
+![t_sk demo](demo3.jpg)
+![t_sk demo](demo4.jpg)
+![t_sk demo](demo5.jpg)
 
 t_sk is a powerful task manager app built with Flutter. It helps you efficiently organize and manage your tasks for everyday life. Whether you need to keep track of work-related assignments, personal projects, or simply create a to-do list, t_sk provides you with a seamless and intuitive interface to stay productive.
 
