@@ -1,6 +1,6 @@
 # t_sk - Task Manager App
 
-![t_sk demo]<img src="(https://github.com/izier/t_sk/blob/main/demo1.jpg)" width="48">
+<img src="(https://github.com/izier/t_sk/blob/main/demo1.jpg)" width="48">
 ![t_sk demo]<img src="(https://github.com/izier/t_sk/blob/main/demo2.jpg)" width="48">
 ![t_sk demo]<img src="(https://github.com/izier/t_sk/blob/main/demo3.jpg)" width="48">
 ![t_sk demo]<img src="(https://github.com/izier/t_sk/blob/main/demo4.jpg)" width="48">
