@@ -38,7 +38,7 @@ To run the t_sk app locally, ensure that you have Flutter SDK installed on your 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/t_sk.git
+git clone https://github.com/izier/t_sk.git
 ```
 2. Navigate to the project directory:
 
