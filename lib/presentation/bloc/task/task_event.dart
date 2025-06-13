@@ -1,5 +1,4 @@
 import 'package:t_sk/models/task.dart';
-import 'package:t_sk/models/task_item.dart';
 
 abstract class TaskEvent {
   const TaskEvent();

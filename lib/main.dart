@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:hive_flutter/adapters.dart';
-import 'package:path_provider/path_provider.dart';
 import 'package:t_sk/common/app_theme_data.dart';
 import 'package:t_sk/models/task.dart';
 import 'package:t_sk/models/task_item.dart';
@@ -15,13 +14,15 @@ import 'package:t_sk/injection.dart' as di;
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  final appDocumentDirectory = await getApplicationDocumentsDirectory();
-  Hive.init(appDocumentDirectory.path);
+
   di.init();
+
+  await Hive.initFlutter();
   Hive.registerAdapter(TaskAdapter());
   Hive.registerAdapter(TaskItemAdapter());
   await Hive.openBox<Task>('tasks');
   await Hive.openBox<TaskItem>('taskItems');
+
   runApp(const TaskApp());
 }
 
